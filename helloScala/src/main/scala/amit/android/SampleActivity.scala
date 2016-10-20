@@ -13,7 +13,6 @@ class SampleActivity extends Activity {
     val randStr = amit.common.Util.randomAlphanumericString(10)
     tv.setText(randStr)
     setContentView(tv)
-//    setContentView(R.layout.main)
   }
 
   
