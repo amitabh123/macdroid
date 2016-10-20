@@ -12,9 +12,11 @@ import android.test.ActivityInstrumentationTestCase2;
  * -e class amit.cs.MainActivityTest \
  * amit.cs.tests/android.test.InstrumentationTestRunner
  */
+ 
 public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity> {
 
     public MainActivityTest() {
+		
         super("amit.cs", MainActivity.class);
     }
 
